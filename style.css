@@ -8,7 +8,7 @@ body, html {
 }
 
 .hero-image{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo2.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/fondo2.jpeg");
   height: 70% !important;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,17 +38,16 @@ body, html {
   color:#000000;
 }
 .divImg{
-margin-top: 2em;
+margin-top: 7em;
 }
 .div1body{
   width: 100%;
-  margin-top:3%;
+  margin-top:4%;
   margin-left: 1.5em;
   margin-right: 1.5em;
 
 }
 .div1body2{
-padding-bottom: 6%;
 }
 .container{
   width: 100% !important;
@@ -68,7 +67,13 @@ nav{
 }
 .pSobremi{
   text-align: justify !important;
+  padding-right: 2em;
+  padding-left: 0%;
   
+}
+.sueños{
+  padding-left: 8em;
+  padding-top: 4em;
 }
 .Frase{
     height: 10% !important;
@@ -159,7 +164,15 @@ nav{
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
+  .hero-text .nombre{
+    font-size: 1.2rem;
+  }
+  .cargo{
+    font-size: 0.8rem;
+  }
+  .hero-image{
+    height: 37% ;
+  }
   
 }
 
@@ -174,9 +187,9 @@ nav{
 .hero-image{
   height: 35% !important;
 }
-.imageM{
+/* .imageM{
   width: 70% !important;
-}
+} */
 .header{
   margin-top: 0.5em;
 }
@@ -187,6 +200,11 @@ nav{
 .pSobremi{
   margin-bottom: 0.5em;
   margin-top: 2.5em;
+}
+.pSobremi{
+  text-align: justify !important;
+  padding: 1.3em;
+  
 }
 /* .div1body2{
   margin-bottom: 6em !important;
@@ -531,7 +549,7 @@ div.desc {
     clear: both;
 }
 
-/* hover img */
+/* hover img
 .herramienta{
   width: 4em !important;
   height: auto;
@@ -551,5 +569,15 @@ div.desc {
 .iconpeq{
   width: 8em !important;
   height: auto;
-}
+} */
 
+.footer-copyright{
+position: relative;
+top:18em;
+}
+.justi{
+  text-align: justify;
+}
+/* margin{
+margin-top: 3em!important;
+} */
