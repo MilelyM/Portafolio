@@ -581,3 +581,11 @@ top:18em;
 /* margin{
 margin-top: 3em!important;
 } */
+.colorCards{
+  /* background-color: #819ca9 !important; */
+  background-color: rgba(128, 128, 128, 0.123) !important;
+}
+.colorCards:hover{
+  background-color:white !important;
+
+}
