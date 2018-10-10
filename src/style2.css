@@ -1,0 +1,56 @@
+.horizontal-scroll {
+    width: 100%;
+    height: 400px;
+    background: url('http://mckenziedave.co.uk/1st-touch/footer_fr.png');
+    -webkit-animation: backgroundScroll 400s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
+    background-repeat: no-repeat;
+    }
+    
+    @-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -600px 0;}
+    }
+            
+    @keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -2000px 0;}
+    }
+    
+    .horizontal-scroll2 {
+    width: 100%;
+    height: 400px;
+    background: url('http://mckenziedave.co.uk/1st-touch/footer_bg.png');
+    -webkit-animation: backgroundScroll2 400s linear infinite;
+    animation: backgroundScroll2 30s linear infinite;
+    background-repeat: no-repeat;
+    }
+    
+    @-webkit-keyframes backgroundScroll2 {
+    from {background-position: -1000px 0;}
+    to {background-position: 0 0;}
+    }
+            
+    @keyframes backgroundScroll2 {
+    from {background-position: -2000px 0;}
+    to {background-position: 0 0;}
+    }
+
+.wgif{
+    width: 20em;
+    height: 20em;
+    border-radius: 15em;
+    background-color:rgb(207, 207, 207);
+    
+}
+.divgif{
+margin-top: 4.5em;
+    width: 100%;
+}
+.divTa{
+    width: 70% !important;
+}
+
+/* nuevo */
+
+

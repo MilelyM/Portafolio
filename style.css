@@ -38,12 +38,13 @@ body, html {
 }
 .divImg{
 margin-top: 2em;
+
 }
 .div1body{
   width: 100%;
   margin-top:4%;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
+  /* margin-left: 1.5em;
+  margin-right: 1.5em; */
 
 }
 .div1body2{
@@ -66,9 +67,10 @@ nav{
 }
 .pSobremi{
   text-align: justify !important;
-  padding-right: 2em;
-  padding-left: 2em;
+  /* padding-right: 2em;
+  padding-left: 2em; */
   text-indent: 1cm;
+  line-height: 2;
 
   
 }
@@ -205,12 +207,11 @@ nav{
 .pSobremi{
   margin-bottom: 0.5em;
   margin-top: 2.5em;
-}
-.pSobremi{
-  text-align: justify !important;
+    text-align: justify !important;
   padding: 1.3em;
   
 }
+
 /* .div1body2{
   margin-bottom: 6em !important;
   margin-top: 5em !important;
@@ -289,9 +290,7 @@ nav{
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
 
 
-svg {
-  width:100%;
-}
+
 
 .topball {
   animation: ball 1.5s ease-in-out;
@@ -321,14 +320,6 @@ svg {
 @keyframes ball {
   to {transform: translateY(20%);}
 }
-
-/* nuevo */
-
-/* html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}
-.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{} */
-
-/* textarea:focus, input:focus{outline: none;}
-*:focus {outline: none;} */
 
 
 h1,h2,h3,h4,h5,h6 {
@@ -554,28 +545,6 @@ div.desc {
     clear: both;
 }
 
-/* hover img
-.herramienta{
-  width: 4em !important;
-  height: auto;
-  margin: 1em;
-}
-
-.zoom{
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.zoom:hover{
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
-}
-.iconpeq{
-  width: 8em !important;
-  height: auto;
-} */
-
 .footer-copyright{
 position: relative;
 top:18em;
@@ -588,7 +557,7 @@ margin-top: 3em!important;
 } */
 .colorCards{
   /* background-color: #819ca9 !important; */
-  background-color: rgba(128, 128, 128, 0.123) !important;
+  background-color: rgb(207, 207, 207) !important;
 }
 .colorCards:hover{
   background-color:white !important;
@@ -601,10 +570,8 @@ margin-top: 3em!important;
  .marg{
   margin-top: 7em !important;
 
-}/*
-.margR{
-  margin: 1em !important;
-} */
+}
+
 .imgGrupo{
   margin-top: 7em !important;
 }
