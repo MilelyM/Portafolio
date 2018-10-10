@@ -1,3 +1,3 @@
 window.setTimeout(function() {
-    location = '../index.html';
+    location = '../index1.html';
   }, 5000);
