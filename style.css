@@ -58,9 +58,7 @@ margin-top: 2em;
     border-radius: 50%;
   }
 nav{
-  background-color:  #f48fb1
-
- !important;
+  background-color:  #f48fb1 !important;
 }
 .btnmodal{
   padding: 0% !important;
@@ -581,3 +579,18 @@ margin-top: 3em!important;
 .just{
   text-align: justify;
 }
+.proyct{
+ margin-top: 5em !important;
+ margin-bottom:6em;
+}
+.herramts{
+  margin-top: 5em;
+  margin-bottom: 3.5em;
+}
+
+.coloriconop{
+  color:  #f48fb1
+
+}
+/* nuevo */
+
