@@ -1,20 +1,20 @@
-$(document).ready(function(){
+$(document).ready(function () {
   $('.sidenav').sidenav();
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
   $('.modal').modal();
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
   $('.scrollspy').scrollSpy();
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
   $('.slider').slider();
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
   $('.carousel').carousel();
 });
 
@@ -32,7 +32,7 @@ AOS.init({
   disableMutationObserver: false, // disables automatic mutations' detections (advanced)
   debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
   throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-  
+
 
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 120, // offset (in px) from the original trigger point
@@ -44,4 +44,3 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
-
